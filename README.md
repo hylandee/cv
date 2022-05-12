@@ -1,6 +1,3 @@
-# Dylan Howell
-[email](mailto:dylanleehowell@gmail.com) / [LinkedIn](https://www.linkedin.com/in/dylanleehowell/)
-
 ## EDUCATION  
 [Arkansas State University](https://www.astate.edu/), Jonesboro AR  
 B.S in Electrical Engineering  
