@@ -65,4 +65,5 @@ Implemented face tracking/censoring function for inmate video-visitation web-app
 Developed car seat add-on that sends a smart-phone alert when a child is left unattended in a vehicle. System used a microcontroller, load-cells to detect the child, and a Bluetooth module to handle the communication. Presented at “STEM Posters at the Capitol” in Little Rock, AR, and IEEE Future Technologies Conference 2017 in Vancouver, BC, Canada([see FTC 2017 site](https://saiconference.com/Conferences/FTC2017)). (C++, Java, Android, Atmega328P)
 
 ### CLI MenuLib
-Wrote a small library for auto-generating CLI menus/submenus using function delegates and a user-friendly string for each option. Removes boiler-plate code required to present and evaluate a CLI menu. Inspiration came from writing dozens of CLI menus while testing individual components of a mathematical model application. (C#, .NET Framework)
+Wrote a small library for auto-generating CLI menus/submenus using function delegates and a user-friendly string for each option. Removes boiler-plate code required to present and evaluate a CLI menu. Inspiration came from writing dozens of CLI menus while testing individual components of a mathematical model application.  
+(**C#, .NET Framework**)
