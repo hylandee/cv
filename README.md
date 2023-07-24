@@ -3,16 +3,15 @@
 ## EDUCATION  
 [Arkansas State University](https://www.astate.edu/), Jonesboro AR  
 B.S in Electrical Engineering  
-Cumulative GPA: 3.54 / 4.0; Major GPA: 3.65 / 4.0
 
 ## PROFESSIONAL EXPERIENCE
 
 ### Software Development Engineer - Amazon, Nashville TN, 04/2020 - Present
 Played an integral role in designing and delivering a platform for externalizing Amazon’s freight network to enterprise shippers. The solution allowed customer ERP systems to programmatically quote and book freight loads utilizing Amazon Logistics as a carrier. Key contributions included cloud architecture design, authentication / authorization mechanisms, and data modeling.  
-(**Java, OAuth 2.0, AWS**)
+(**Java, OAuth 2.0, AWS: ECS/Fargate, DynamoDB**)
 
-Built a REST based push notification system for sending freight tracking updates to transportation visibility providers. Solution included a custom transformation layer to conform to the data model + desired auth mechanism of each integration. Included secure storage + rotation of authentication secrets. Implemented a test implementation of a customer system to verify the AuthN/AuthZ, request transformation, and delivery mechanism prior to launch with real integrations / shippers.  
-(**Java, Apache Velocity, AWS**)
+Built a REST based push notification system for sending freight tracking updates to transportation visibility providers. Solution included SNS / SQS event processing and a custom transformation layer to conform to the data model and auth mechanism of each integration. Included secure storage + rotation of authentication secrets. Implemented a test implementation of a customer system to verify the AuthN/AuthZ, request transformation, and delivery mechanism prior to launch with real integrations / shippers.  
+(**Java, OAuth 2.0, Apache Velocity, AWS: SNS, SQS, Lambda, Secrets Manager**)
 
 Wrote a library that redacts sensitive / personally identifiable information(PII) from incoming JSON. Configurable pattern matching was used to detect + redact sensitive fields. Project was born as a DX / automation effort to replace manual PII redaction across several code-bases.  
 (**Java**)
@@ -20,10 +19,10 @@ Wrote a library that redacts sensitive / personally identifiable information(PII
 ---
 
 ### Process Control Engineer - Nucor Corporation, Blytheville AR, 05/2017 - 04/2020
-Specified hardware, installed/configured hypervisors, and deployed all virtual machines required to startup a $230M production facility. Wrote automation scripts for server maintenance, backups, and preauthenticated VM remote consoles.  
+Specified hardware, installed/configured hypervisors, and deployed all virtual machines required to startup a $230MM production facility. Wrote automation scripts for server maintenance, backups, and preauthenticated VM remote consoles.  
 (**VMware vSphere/ESXi, PowerShell, VEEAM**)
 
-Adapted and extended a suite of services/GUIs bundled with a $65M mechanical equipment package. Integrated steel production software with batch/ordering business systems. Enhanced data collection/analysis capabilities to ultimately boost product quality and yield. Improved software stability by fixing flaws in data access code and implementing database maintenance tasks.  
+Adapted and extended a suite of services/GUIs bundled with a $65MM mechanical equipment package. Integrated steel production software with batch/ordering business systems. Enhanced data collection/analysis capabilities to ultimately boost product quality and yield. Improved software stability by fixing flaws in data access code and implementing database maintenance tasks.  
 (**C#, MS SQL Server, WinForms**)
 
 Composed standalone service that reads production line stops from a field controller via TCP/IP socket communication. Application logged plant downtime in an SQL database with time split amongst different production crews. Made the application highly configurable since we had different use-cases in each production area. Worked with UI team to intgrate with an existing web-app to present the logs in the operations UI.  
