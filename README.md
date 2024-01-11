@@ -2,15 +2,21 @@
 
 ## EDUCATION  
 [Arkansas State University](https://www.astate.edu/), Jonesboro AR  
-B.S in Electrical Engineering  
+B.S. in Electrical Engineering  
 
 ## PROFESSIONAL EXPERIENCE
 
-### Software Development Engineer - Amazon, Nashville TN, 04/2020 - Present
+### Software Development Engineer - Amazon, Nashville TN
+*L4 SDE: 04/2020 - 07/2022*  
+*L5 SDE: 07/2022 - Present*
+
+Developed webhook integration with external load boards to allow Amazon to consume freight "**R**equests **f**or **Q**uote(RFQ)" and asynchronously response with bid requests. Scope included exposing secure API access to third party companies, validating, filtering, transforming RFQ data. Addtionally implemented a hot-swappable configuration and persistence layer. Integrated with several Amazon-internal microservices for validation / freight pricing calculation. As our service was mostly I/O bound I took it as an opportunity to learn Kotlin coroutines.
+(**Kotlin, OAuth 2.0, AWS: API Gateway, Cognito User Pools, ECS/Fargate, SQS, DynamoDB, AppConfig**)
+
 Played an integral role in designing and delivering a platform for externalizing Amazon’s freight network to enterprise shippers. The solution allowed customer ERP systems to programmatically quote and book freight loads utilizing Amazon Logistics as a carrier. Key contributions included cloud architecture design, authentication / authorization mechanisms, and data modeling.  
 (**Java, OAuth 2.0, AWS: ECS/Fargate, DynamoDB**)
 
-Built a REST based push notification system for sending freight tracking updates to transportation visibility providers. Solution included SNS / SQS event processing and a custom transformation layer to conform to the data model and auth mechanism of each integration. Included secure storage + rotation of authentication secrets. Implemented a test implementation of a customer system to verify the AuthN/AuthZ, request transformation, and delivery mechanism prior to launch with real integrations / shippers.  
+Built a REST based push notification system for sending freight tracking updates to transportation visibility providers. Solution included AWS SNS / SQS event processing and a custom transformation layer to conform to the data model and auth mechanism of each integration. Included secure storage + rotation of authentication secrets. Implemented a test implementation of a customer system to verify the AuthN/AuthZ, request transformation, and delivery mechanism prior to launch with real integrations / shippers.  
 (**Java, OAuth 2.0, Apache Velocity, AWS: SNS, SQS, Lambda, Secrets Manager**)
 
 Wrote a library that redacts sensitive / personally identifiable information(PII) from incoming JSON. Configurable pattern matching was used to detect + redact sensitive fields. Project was born as a DX / automation effort to replace manual PII redaction across several code-bases.  
