@@ -19,18 +19,13 @@ Played an integral role in designing and delivering a platform for externalizing
 Built a REST based push notification system for sending freight tracking updates to transportation visibility providers. Solution included AWS SNS / SQS event processing and a custom transformation layer to conform to the data model and auth mechanism of each integration. Included secure storage + rotation of authentication secrets. Implemented a test implementation of a customer system to verify the AuthN/AuthZ, request transformation, and delivery mechanism prior to launch with real integrations / shippers. Wrote Python scripts to help oncall engineers automate interactions with AWS APIs.
 (**Java, Python, OAuth 2.0, Apache Velocity, AWS: SNS, SQS, Lambda, Secrets Manager**)
 
----
-
-<br/>
-
----
-
-(Amazon continued)
-
 Wrote a library that redacts sensitive / personally identifiable information(PII) from incoming JSON. Configurable pattern matching was used to detect + redact sensitive fields. Project was born as a DX / automation effort to replace manual PII redaction across several code-bases.  
 (**Java**)
 
 ---
+
+<br/>
+<br/>
 
 ### Process Control Engineer - Nucor Corporation, Blytheville AR, 05/2017 - 04/2020
 Specified hardware, installed/configured hypervisors, and deployed all virtual machines required to startup a $230MM production facility. Wrote automation scripts for server maintenance, backups, and preauthenticated VM remote consoles.  
@@ -44,18 +39,6 @@ Composed standalone service that reads production line stops from a field contro
 
 Improved adaptation of steel pickling (acid treatment) math model to quickly converge on correct acid dosing for new steel grades. Deployed additional adaptor for grades high in Silicon. Verified model accuracy by analyzing the results of lab tests.  
 (**C++, C#**)
-
----
-
-
-
-<br/><br/>
-<br/><br/>
-<br/><br/>
-
-
-
-
 
 ---
 
@@ -73,6 +56,9 @@ Created embedded controller that reads building automation system alarm signals 
 
 ---
 
+<br/>
+<br/>
+
 ### Software Developer - Tech Friends Inc., 08/2015 - 08/2016
 Remediated customer reported UI issues in corrections-facility inmate-accounting software. Implemented grid-view with search/filtering functionality for commissary inventory management.  
 (**Visual Basic, WinForms**)
@@ -82,11 +68,6 @@ Wrote general purpose HTML-aware text parsing function for company’s internal 
 
 Implemented face tracking/censoring function for inmate video-visitation web-app.  
 (**C#, JavasScript, ASP.NET, EmguCV, OpenCV**)
-
-<br/><br/>
-<br/><br/>
-<br/><br/>
-<br/><br/>
 
 ## INDEPENDENT PROJECTS
 
