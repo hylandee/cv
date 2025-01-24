@@ -7,7 +7,7 @@ B.S. in Electrical Engineering
 ## PROFESSIONAL EXPERIENCE
 
 ### Software Development Engineer - Amazon, Nashville TN
-*SDE II: 07/2022 - Present*
+*SDE II: 07/2022 - Present*  
 *SDE I: 04/2020 - 07/2022*
 
 Developed webhook integration with external load boards to allow Amazon to consume freight "**R**equests **f**or **Q**uote(RFQ)" and asynchronously respond with bid requests. Scope included exposing secure API access to third party companies, and validating, filtering, and transforming RFQ data. Addtionally implemented a hot-swappable configuration and persistence layer. Integrated with several Amazon-internal microservices for validation / freight pricing calculation. As our service was mostly I/O bound I took it as an opportunity to learn Kotlin coroutines.
